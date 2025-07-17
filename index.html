@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Choice - The Truth of Hers'</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8f9fb;
+      color: #222;
+    }
+
+    header {
+      background-color: #eaf1fb;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header img.logo {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #5f7db0;
+      margin: 10px 0 20px;
+    }
+
+    header a.button {
+      display: inline-block;
+      background-color: #5f7db0;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      gap: 30px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .hero img {
+      max-width: 300px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-top: 60px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Our Choice Logo" class="logo" />
+    <h1>OUR CHOICE</h1>
+    <p>THE TRUTH OF HERS'</p>
+    <a href="#shop" class="button">SHOP NOW</a>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <img src="model.jpg" alt="Athletic Woman Wearing Our Choice">
+    <p>Confidence, performance, and style for every move you make.</p>
+  </section>
+
+  <h2 id="shop">Featured Products</h2>
+  <section class="products">
+    <div class="product-card">
+      <img src="chaussure-blanche.png" alt="Pink/Green Sneaker">
+      <h3>Pink/Green Sneaker</h3>
+    </div>
+    <div class="product-card">
+      <img src="chaussure-rouge.jpg" alt="Red Sneaker">
+      <h3>Red Sneaker</h3>
+    </div>
+    <div class="product-card">
+      <img src="tshirt.jpg" alt="Sport T-shirt">
+      <h3>Sport T-shirt</h3>
+    </div>
+    <div class="product-card">
+      <img src="legging.jpg" alt="Sport Legging">
+      <h3>Sport Legging</h3>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Our Choice. Empowering Women Everywhere.</p>
+  </footer>
+
+</body>
+</html>
